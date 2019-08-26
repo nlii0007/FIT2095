@@ -1,0 +1,25 @@
+<html>
+    <style>
+        body {
+            background-color: lightblue;
+       }
+        h1{
+            border: 2px solid black;
+            outline: #4CAF50 solid 10px;
+            margin: auto;  
+            padding: 20px;
+        }
+
+    </style>
+    <body>
+        <h1>Add a new Task</h1>
+        <form action = "addmyTasks" method="POST" ><br/>
+            <br>Task Name: <input type="text" name="taskname" /><br/>
+            <br>Task Due: <input type="string" name="duetime"><br/>
+            <br>Task Desc: <input type="text" name="description" /><br/>
+            <br><button>Submit</button><br/>
+        </form>
+        <h1><a href="/">Home</a></h1><br/>
+        <h1><a href="/getAllTasks">List ALL Tasks</a></h1><br/>  
+    </body>
+</html>
